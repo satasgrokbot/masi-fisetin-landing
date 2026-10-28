@@ -4,7 +4,7 @@ try{
  const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});const errors=[],tracking=[];
  page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/facebook.com\/tr|googletagmanager|google-analytics/.test(r.url()))tracking.push(r.url())});
  await page.goto(base,{waitUntil:'networkidle'});
- assert.equal(await page.locator('[data-ms-promo-copy]').innerText(),'SAVE UP TO 10% + GET €160 IN GIFTS');
+ assert.equal(await page.locator('[data-ms-promo-copy]').innerText(),'SAVE UP TO 10% + GET $160 IN GIFTS');
  assert.equal(await page.locator('.landing-shop').evaluate(n=>getComputedStyle(n).backgroundColor),'rgb(246, 255, 72)');
  assert.equal(await page.locator('.landing-shop').evaluate(n=>getComputedStyle(n).color),'rgb(43, 50, 13)');
  assert(!(await page.locator('#cookie-banner').isVisible()));assert.equal(tracking.length,0);report.noPrivacyPopup=true;report.noTrackingWithoutConsent=true;

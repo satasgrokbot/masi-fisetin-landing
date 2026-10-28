@@ -84,6 +84,6 @@ The comparison, healthy-aging routine, and quiz sections are removed. Reviews, f
 
 `source/detail-copy.json` contains the expanded descriptions, benefit explanations, eight references, six study links, and six manufacturing steps. The generator keeps the full original Dr. Wolfgang Bucke quote and role. Study labels are neutral and distinguish published human research, trial records, preclinical research and reviews.
 
-The exact requested banner is `SAVE UP TO 10% + GET €160 IN GIFTS`. This is an explicit exception to the USD-only display rule. Purchase prices and checkout requests remain USD. The Shop button uses `#F6FF48` with dark text.
+The banner matches the live USD PDP: `SAVE UP TO 10% + GET $160 IN GIFTS`. `public/masi-header.js` is the theme `masi-header-r31.js` with null guards for the absent market disclosures. It re-renders the banner from the `data-ms-*` attributes and measures the promo height for the sticky header. The Shop button uses the Fisetin header accent `#F6FF48` with dark text.
 
 The 90-day row split was fixed separately through the existing MASI Satas app. The new unified discount targets only gifts. The landing checkout now shows one Fisetin row with quantity 3 and three free gifts. Prices and plans are unchanged. See `audit/current-checkout-verification.json`. The old `audit/gift-rule.json` and `audit/gift-split-variants.json` files retain the pre-fix diagnosis.

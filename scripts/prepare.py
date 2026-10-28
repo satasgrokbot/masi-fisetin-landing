@@ -100,7 +100,7 @@ for market in ['USD']:
  remove(s,'.r60-formulas,.r51-foryou',market,'Owner requested removal of comparison, healthy-aging routine and quiz sections')
  faq=[('What is Fisetin?',APPROVED[1]),('What are senescent cells?',APPROVED[0]),('How does Fisetin support healthy aging?',APPROVED[1]),('Does Fisetin have antioxidant properties?',APPROVED[5]),('How much Fisetin should I take daily?',APPROVED[6]),('How much Fisetin is in each capsule?',APPROVED[2]),('How many capsules are in a jar?',APPROVED[3]),('Where is MASI Premium Fisetin made?','Made in Germany with German raw materials.'),('Where is MASI Premium Fisetin tested?','Third-party tested in Switzerland for purity.'),('Are the capsules vegan?',APPROVED[3])]
  for n,(q,a) in zip(s.select('.r51-faq-item'),faq):
-  old=n.get_text(' ',strip=True);n.clear();n.append(BeautifulSoup('<summary>'+q+'<span aria-hidden="true">+</span></summary><div class="r51-rich"><p>'+a+'</p></div>','html.parser'))
+  old=n.get_text(' ',strip=True);n.clear();n.append(BeautifulSoup('<summary>'+q+'</summary><div class="r51-rich"><p>'+a+'</p></div>','html.parser'))
   if market=='USD':changes.append({'location':'FAQ','before':old,'after':q+' '+a,'reason':'Approved facts only; remove treatment, interactions, safety and time-to-result assertions'})
  # Avoid showing the original prohibited text in hidden menus, image alts, and footer disclosures.
  for n in s.select('.ms-product-benefit'):n.string='Explore the formula.'
@@ -117,7 +117,7 @@ for market in ['USD']:
  for n in list(s.select('details')):
   if n.find('summary') and re.search('region|language|country',n.find('summary').get('aria-label',''),re.I):n.decompose()
  controls=s.select_one('.ms-utilities')
- flag=BeautifulSoup('<span class="landing-market" aria-label="United States, USD"><img src="https://cdn.shopify.com/static/images/flags/us.svg?width=32" width="24" height="18" alt="United States"><span>USD</span></span>','html.parser')
+ flag=BeautifulSoup('<span class="landing-market ms-market" aria-label="United States, USD"><img src="https://cdn.shopify.com/static/images/flags/us.svg?width=32" width="24" height="18" alt="United States"><span>USD</span></span>','html.parser')
  controls.insert(0,flag)
  shop=BeautifulSoup('<a class="ms-control ms-menu-trigger landing-shop" href="#purchase">Shop</a>','html.parser')
  s.select_one('.ms-menu').replace_with(shop)
@@ -127,7 +127,7 @@ for market in ['USD']:
  for attr in ['data-checkout','aria-haspopup','aria-expanded']:cart.attrs.pop(attr,None)
  cart.select_one('.ms-sr-only').string='View purchase options'
  for n in s.select('.ms-promo a'):n['href']='#purchase'
- replace(s,'[data-ms-promo-copy]','SAVE UP TO 10% + GET €160 IN GIFTS',market,'Exact announcement copy requested by the owner; purchase prices remain USD')
+ replace(s,'[data-ms-promo-copy]','SAVE UP TO 10% + GET $160 IN GIFTS',market,'Exact live USD announcement copy; masi-header.js re-renders it from the data attributes')
  # Snapshot the two original decorative canvases; no theme runtime scripts are carried over.
  for sel,file in [('masi-pdp-r58-cell','science-art.png'),('masi-pdp-r51-art','benefit-art.png')]:
   for n in s.select(sel):
@@ -159,7 +159,7 @@ for market in ['USD']:
  for action,key in [('reject','buttonDeclineText'),('settings','buttonPrefsOpenText'),('accept','buttonAcceptText')]:s.select_one('[data-consent='+action+']').string=c[key]
 
  foot=s.select_one('.mft-privacy');button=s.new_tag('button',type='button',id='cookie-open');button.string='Cookie preferences';foot.append(button)
- s.body.append(BeautifulSoup('<script type="module" src="/app.js"></script>','html.parser'))
+ s.body.append(BeautifulSoup('<script src="/masi-header.js"></script><script type="module" src="/app.js"></script>','html.parser'))
  # Preserve actual stylesheet order from the live page, excluding unrelated app/cart styles.
  styles=[]
  for u in d['styles']:

@@ -6,7 +6,7 @@ for(const file of ['index.html','usd/index.html'])test(`${file} has restricted c
  assert.doesNotMatch(html,/<script[^>]+src=["'][^"']*(shopify|masi\.eu|recharge)/i);
  assert.doesNotMatch(html,/application\/ld\+json|og:product|product:price|fb:app_id/);
  assert.doesNotMatch(copy,/no fillers|2 adults|two adults|Reverses Skin Aging/i);
- assert.doesNotMatch(copy.replace('€160',''),/€|\bEUR\b|Compare the five formulas|Fisetin for your healthy-aging routine/);
+ assert.doesNotMatch(copy,/€|\bEUR\b|Compare the five formulas|Fisetin for your healthy-aging routine/);
  assert.doesNotMatch(html,/id="landing-currency"|class="ms-account"|class="r60-quiz/);
  assert.match(html,/250 mg of pure Fisetin/);assert.match(html,/60 vegan capsules per jar/);
  assert.match(html,/noindex,nofollow/);assert.match(html,/policies\/privacy-policy/);
@@ -18,5 +18,8 @@ test('both routes contain only the US catalog and header anchors',()=>{
  assert.match(root,/href="#r58-lab">Lab results/);
  assert.match(root,/href="#r51-science-title">Science/);
  assert.match(root,/"currency":"USD","country":"US"/);
- assert.match(root,/SAVE UP TO 10% \+ GET €160 IN GIFTS/);
+ assert.match(root,/SAVE UP TO 10% \+ GET \$160 IN GIFTS/);
+ assert.match(root,/class="landing-market ms-market"/);
+ assert.match(root,/<script src="\/masi-header.js"><\/script><script src="\/app.js"/);
+ assert.doesNotMatch(root,/<summary>[^<]*<span aria-hidden="true">\+<\/span>/);
 });

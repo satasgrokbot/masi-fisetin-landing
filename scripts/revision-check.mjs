@@ -11,7 +11,7 @@ try{
  assert.equal(await page.locator('.ms-account,#landing-currency,.r60-formulas,.r51-foryou,.r60-quiz,.ms-shop-panel').count(),0);
  assert.equal(await page.locator('.landing-market').innerText(),'USD');
  assert.equal(await page.locator('.landing-market img').getAttribute('alt'),'United States');
- assert.equal(await page.locator('[data-ms-promo-copy]').innerText(),'SAVE UP TO 10% + GET €160 IN GIFTS');
+ assert.equal(await page.locator('[data-ms-promo-copy]').innerText(),'SAVE UP TO 10% + GET $160 IN GIFTS');
  report.usdHeader=true;report.removedSections=true;
  report.navigation=[];
  for(const [selector,target] of [['.landing-shop','#purchase'],['.ms-primary a:first-child','#r51-science-title'],['.ms-primary a:last-child','#r58-lab'],['#cart-icon-bubble','#purchase']]){
