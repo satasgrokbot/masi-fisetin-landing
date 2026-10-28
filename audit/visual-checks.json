@@ -1,0 +1,14 @@
+[
+  {
+    "currency": "USD",
+    "viewport": "desktop",
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "currency": "USD",
+    "viewport": "phone",
+    "overflow": false,
+    "errors": []
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "existingOneTimeCartNotAppended": true,
+  "doubleClickCreatesOneCart": true,
+  "productLines": [
+    {
+      "quantity": 2,
+      "merchandise": {
+        "id": "gid://shopify/ProductVariant/45882827014419"
+      },
+      "sellingPlanAllocation": {
+        "sellingPlan": {
+          "id": "gid://shopify/SellingPlan/692433813779",
+          "name": "90-DAY SUPPLY"
+        }
+      },
+      "cost": {
+        "totalAmount": {
+          "amount": "341.94",
+          "currencyCode": "USD"
+        }
+      }
+    },
+    {
+      "quantity": 1,
+      "merchandise": {
+        "id": "gid://shopify/ProductVariant/45882827014419"
+      },
+      "sellingPlanAllocation": {
+        "sellingPlan": {
+          "id": "gid://shopify/SellingPlan/692433813779",
+          "name": "90-DAY SUPPLY"
+        }
+      },
+      "cost": {
+        "totalAmount": {
+          "amount": "170.97",
+          "currencyCode": "USD"
+        }
+      }
+    }
+  ],
+  "subtotal": {
+    "amount": "512.91",
+    "currencyCode": "USD"
+  },
+  "recurring": "$512.91 every 12 weeks"
+}

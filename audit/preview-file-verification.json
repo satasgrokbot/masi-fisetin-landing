@@ -1,0 +1,42 @@
+[
+  {
+    "file": "index.html",
+    "matchesPreview": true,
+    "sha256": "fbcae9552115732c456e03a56a1f0ad4a521904a68990a41b29ba30e0e33ea8c"
+  },
+  {
+    "file": "usd/index.html",
+    "matchesPreview": true,
+    "sha256": "fbcae9552115732c456e03a56a1f0ad4a521904a68990a41b29ba30e0e33ea8c"
+  },
+  {
+    "file": "app.js",
+    "matchesPreview": true,
+    "sha256": "22ee4c5e1c9e797536ece5006affc9960cdd571b869c71b37d22d4ff01619657"
+  },
+  {
+    "file": "checkout.js",
+    "matchesPreview": true,
+    "sha256": "d8e7cf081d38d916be2c2609d5f6f29bb0deb35bed6b314b8db1079709129654"
+  },
+  {
+    "file": "reviews.js",
+    "matchesPreview": true,
+    "sha256": "ca071d6043ea536198a0e706ee5e1684719ee2569a64454a961be1a717300b38"
+  },
+  {
+    "file": "reviews.json",
+    "matchesPreview": true,
+    "sha256": "df984abb714e24701b1025774be7bb675ccea7573ab3ce3a09d359f9814cc6e0"
+  },
+  {
+    "file": "landing.css",
+    "matchesPreview": true,
+    "sha256": "852f6c37aced94939870ef540759e908151612585b203b48ac2acd9cbf508bce"
+  },
+  {
+    "file": "live.css",
+    "matchesPreview": true,
+    "sha256": "9d9643b7f59ae3b268ffa70d697ffc29a743e058fe864df01f19fab8ee1e593b"
+  }
+]

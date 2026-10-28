@@ -1,0 +1,29 @@
+{
+  "scope": "Page copy, hidden tabs, alt text, accessibility labels and metadata. Exact live reviews are recorded separately.",
+  "outsideReviews": [],
+  "reviewException": [
+    {
+      "name": "Deborah",
+      "terms": [
+        "energy"
+      ]
+    },
+    {
+      "name": "Lana",
+      "terms": [
+        "energy"
+      ]
+    },
+    {
+      "name": "Beckett",
+      "terms": [
+        "energy"
+      ]
+    }
+  ],
+  "fullExpertQuoteRestored": true,
+  "reviewFilterException": [
+    "Energy"
+  ],
+  "status": "Outside-review scan passed; original review claims remain by owner request"
+}

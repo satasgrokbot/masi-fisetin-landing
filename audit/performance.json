@@ -1,0 +1,22 @@
+[
+  {
+    "width": 390,
+    "lcpMs": 200,
+    "cls": 0.021977787829274172,
+    "domReadyMs": 201,
+    "transferKB": 1115,
+    "requests": 29,
+    "overflow": false,
+    "missingImages": 0
+  },
+  {
+    "width": 1440,
+    "lcpMs": 196,
+    "cls": 0.0007739426372524281,
+    "domReadyMs": 224,
+    "transferKB": 1237,
+    "requests": 30,
+    "overflow": false,
+    "missingImages": 0
+  }
+]

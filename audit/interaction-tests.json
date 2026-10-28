@@ -1,0 +1,71 @@
+{
+  "noTrackingBeforeConsent": true,
+  "meta": [
+    {
+      "event": "PageView",
+      "pixel": "1459202204862031",
+      "currency": null,
+      "value": null,
+      "catalog": false
+    },
+    {
+      "event": "ViewContent",
+      "pixel": "1459202204862031",
+      "currency": "USD",
+      "value": "512.91",
+      "catalog": false
+    },
+    {
+      "event": "InitiateCheckout",
+      "pixel": "1459202204862031",
+      "currency": "USD",
+      "value": "512.91",
+      "catalog": false
+    }
+  ],
+  "ga": [
+    {
+      "id": "G-H98Q4W0J4S",
+      "event": "page_view"
+    },
+    {
+      "id": "G-H98Q4W0J4S",
+      "event": "view_item"
+    },
+    {
+      "id": "G-22PSYBQM5W",
+      "event": "page_view"
+    },
+    {
+      "id": "G-22PSYBQM5W",
+      "event": "view_item"
+    },
+    {
+      "id": "G-H98Q4W0J4S",
+      "event": "scroll"
+    },
+    {
+      "id": "G-22PSYBQM5W",
+      "event": "scroll"
+    },
+    {
+      "id": "G-H98Q4W0J4S",
+      "event": "form_start"
+    },
+    {
+      "id": "G-H98Q4W0J4S",
+      "event": "begin_checkout"
+    },
+    {
+      "id": "G-22PSYBQM5W",
+      "event": "form_start"
+    }
+  ],
+  "galleryAndZoom": true,
+  "detailsAndFaq": true,
+  "planSwitching": true,
+  "stickyCheckout": true,
+  "errors": [],
+  "usdOnly": true,
+  "consentRevocation": true
+}

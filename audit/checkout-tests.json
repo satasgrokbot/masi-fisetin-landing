@@ -1,0 +1,259 @@
+[
+  {
+    "currency": "USD",
+    "key": "90",
+    "expected": {
+      "variant": 45882827014419,
+      "quantity": 3,
+      "plan": 692433813779,
+      "total": "$512.91"
+    },
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "cleanBeforeConsent": true,
+    "checkout": true,
+    "containsProduct": true,
+    "containsPrice": true,
+    "containsPlan": true,
+    "freeGiftCount": 3,
+    "graphql": [
+      {
+        "attributes": [
+          {
+            "key": "landing",
+            "value": "fisetin"
+          },
+          {
+            "key": "utm_source",
+            "value": "meta"
+          },
+          {
+            "key": "utm_campaign",
+            "value": "fisetin_preview"
+          },
+          {
+            "key": "utm_content",
+            "value": "checkout_test"
+          }
+        ],
+        "cost": {
+          "subtotalAmount": {
+            "amount": "512.91",
+            "currencyCode": "USD"
+          }
+        },
+        "lines": {
+          "nodes": [
+            {
+              "quantity": 1,
+              "merchandise": {
+                "id": "gid://shopify/ProductVariant/51815271268627"
+              },
+              "sellingPlanAllocation": null,
+              "cost": {
+                "totalAmount": {
+                  "amount": "0.0",
+                  "currencyCode": "USD"
+                }
+              }
+            },
+            {
+              "quantity": 1,
+              "merchandise": {
+                "id": "gid://shopify/ProductVariant/51867758067987"
+              },
+              "sellingPlanAllocation": null,
+              "cost": {
+                "totalAmount": {
+                  "amount": "0.0",
+                  "currencyCode": "USD"
+                }
+              }
+            },
+            {
+              "quantity": 1,
+              "merchandise": {
+                "id": "gid://shopify/ProductVariant/47502705033491"
+              },
+              "sellingPlanAllocation": null,
+              "cost": {
+                "totalAmount": {
+                  "amount": "0.0",
+                  "currencyCode": "USD"
+                }
+              }
+            },
+            {
+              "quantity": 2,
+              "merchandise": {
+                "id": "gid://shopify/ProductVariant/45882827014419"
+              },
+              "sellingPlanAllocation": {
+                "sellingPlan": {
+                  "id": "gid://shopify/SellingPlan/692433813779",
+                  "name": "90-DAY SUPPLY"
+                }
+              },
+              "cost": {
+                "totalAmount": {
+                  "amount": "341.94",
+                  "currencyCode": "USD"
+                }
+              }
+            },
+            {
+              "quantity": 1,
+              "merchandise": {
+                "id": "gid://shopify/ProductVariant/45882827014419"
+              },
+              "sellingPlanAllocation": {
+                "sellingPlan": {
+                  "id": "gid://shopify/SellingPlan/692433813779",
+                  "name": "90-DAY SUPPLY"
+                }
+              },
+              "cost": {
+                "totalAmount": {
+                  "amount": "170.97",
+                  "currencyCode": "USD"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "shown": "BEST VALUE\nSave 10%\n90-Day Supply\n$170.97\n/mo\n$189.97\nBilled $512.91 every 12 weeks\n$5.70/day\n✓\nSave 10% on every order\n✓\nSave $70 on shipping\n✓\nCancel anytime\n✓\nTotal savings: $287\nTravel jar\n$12\nFREE\nLongevity Diet\neBook\n$59\nFREE\n8 Pillars\neBook\n$89\nFREE\n$160 in free welcome gifts\nSTART NOW"
+  },
+  {
+    "currency": "USD",
+    "key": "30",
+    "expected": {
+      "variant": 45882827014419,
+      "quantity": 1,
+      "plan": 692168196371,
+      "total": "$180.47"
+    },
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "cleanBeforeConsent": true,
+    "checkout": true,
+    "containsProduct": true,
+    "containsPrice": true,
+    "containsPlan": true,
+    "freeGiftCount": 3,
+    "graphql": [
+      {
+        "attributes": [
+          {
+            "key": "landing",
+            "value": "fisetin"
+          },
+          {
+            "key": "utm_source",
+            "value": "meta"
+          },
+          {
+            "key": "utm_campaign",
+            "value": "fisetin_preview"
+          },
+          {
+            "key": "utm_content",
+            "value": "checkout_test"
+          }
+        ],
+        "cost": {
+          "subtotalAmount": {
+            "amount": "180.47",
+            "currencyCode": "USD"
+          }
+        },
+        "lines": {
+          "nodes": [
+            {
+              "quantity": 1,
+              "merchandise": {
+                "id": "gid://shopify/ProductVariant/51815271268627"
+              },
+              "sellingPlanAllocation": null,
+              "cost": {
+                "totalAmount": {
+                  "amount": "0.0",
+                  "currencyCode": "USD"
+                }
+              }
+            },
+            {
+              "quantity": 1,
+              "merchandise": {
+                "id": "gid://shopify/ProductVariant/51867758067987"
+              },
+              "sellingPlanAllocation": null,
+              "cost": {
+                "totalAmount": {
+                  "amount": "0.0",
+                  "currencyCode": "USD"
+                }
+              }
+            },
+            {
+              "quantity": 1,
+              "merchandise": {
+                "id": "gid://shopify/ProductVariant/47502705033491"
+              },
+              "sellingPlanAllocation": null,
+              "cost": {
+                "totalAmount": {
+                  "amount": "0.0",
+                  "currencyCode": "USD"
+                }
+              }
+            },
+            {
+              "quantity": 1,
+              "merchandise": {
+                "id": "gid://shopify/ProductVariant/45882827014419"
+              },
+              "sellingPlanAllocation": {
+                "sellingPlan": {
+                  "id": "gid://shopify/SellingPlan/692168196371",
+                  "name": "30-DAY SUPPLY"
+                }
+              },
+              "cost": {
+                "totalAmount": {
+                  "amount": "180.47",
+                  "currencyCode": "USD"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "shown": "MOST POPULAR\nSave 5%\n30-Day Supply\n$180.47\n/mo\n$189.97\nBilled $180.47 every 4 weeks\n$6.02/day\n✓\nSave 5% on every order\n✓\nFast, insured shipping\n✓\nCancel anytime\n✓\nTotal savings: $169.5\nTravel jar\n$12\nFREE\nLongevity Diet\neBook\n$59\nFREE\n8 Pillars\neBook\n$89\nFREE\n$160 in free welcome gifts\nSTART NOW"
+  },
+  {
+    "currency": "USD",
+    "key": "once",
+    "expected": {
+      "variant": 45882827014419,
+      "quantity": 1,
+      "plan": null,
+      "total": "$189.97"
+    },
+    "errors": [],
+    "failed": [],
+    "overflow": false,
+    "cleanBeforeConsent": true,
+    "checkout": true,
+    "containsProduct": true,
+    "containsPrice": true,
+    "containsPlan": true,
+    "freeGiftCount": 0,
+    "graphql": [],
+    "shown": "One Time Purchase\n$189.97\nBilled once · no subscription\n$6.33/day\nSTART NOW"
+  }
+]

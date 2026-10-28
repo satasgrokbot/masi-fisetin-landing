@@ -1,0 +1,11 @@
+
+.vercel
+.vercel/
+__pycache__/
+audit/browser-raw/
+audit/source-summary.log
+audit/source/
+dist/
+node_modules/
+playwright-report/
+test-results/

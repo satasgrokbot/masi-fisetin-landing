@@ -1,0 +1,18 @@
+{
+  "enabled": false,
+  "position": "bottom_left",
+  "policyLinkText": "Privacy Policy.",
+  "policyLinkUrl": "https://masi.eu/policies/privacy-policy",
+  "title": "We value your privacy",
+  "text": "We use cookies and other technologies to personalize your experience, perform marketing, and collect analytics. Learn more in our ",
+  "buttonPrefsOpenText": "Manage preferences",
+  "buttonAcceptText": "Accept",
+  "buttonDeclineText": "Decline",
+  "theme": {
+    "theme": "light",
+    "fontColor": "0,0,0,100",
+    "backgroundColor": "0,0,100,100",
+    "buttonFontColor": "0,0,0,100",
+    "buttonBackgroundColor": "0,0,100,100"
+  }
+}

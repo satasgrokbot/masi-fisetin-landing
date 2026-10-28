@@ -1,0 +1,50 @@
+{
+  "currency": "USD",
+  "country": "US",
+  "variant": 45882827014419,
+  "productName": "Premium Fisetin",
+  "capturedAt": "2026-10-21T15:36:46.687Z",
+  "gifts": [
+    {
+      "id": 47502705033491,
+      "title": "MASI Travel Jar",
+      "price": 1200,
+      "available": true
+    },
+    {
+      "id": 51867758067987,
+      "title": "The Longevity Diet eBook",
+      "price": 5900,
+      "available": true
+    },
+    {
+      "id": 51815271268627,
+      "title": "8 Pillars of Longevity eBook",
+      "price": 8900,
+      "available": true
+    }
+  ],
+  "plans": {
+    "90": {
+      "id": 692433813779,
+      "qty": 3,
+      "unit": 17097,
+      "pct": 10,
+      "weeks": 12
+    },
+    "30": {
+      "id": 692168196371,
+      "qty": 1,
+      "unit": 18047,
+      "pct": 5,
+      "weeks": 4
+    },
+    "once": {
+      "id": null,
+      "qty": 1,
+      "unit": 18997,
+      "pct": 0
+    }
+  },
+  "list": 18997
+}

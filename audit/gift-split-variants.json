@@ -1,0 +1,395 @@
+[
+  {
+    "name": "current",
+    "attributes": [
+      {
+        "key": "landing",
+        "value": "fisetin"
+      }
+    ],
+    "cost": {
+      "subtotalAmount": {
+        "amount": "512.91",
+        "currencyCode": "USD"
+      }
+    },
+    "lines": {
+      "nodes": [
+        {
+          "quantity": 1,
+          "discountAllocations": [
+            {
+              "discountedAmount": {
+                "amount": "89.0",
+                "currencyCode": "USD"
+              },
+              "title": "MASI subscription welcome gifts"
+            }
+          ],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/51815271268627"
+          },
+          "sellingPlanAllocation": null,
+          "cost": {
+            "totalAmount": {
+              "amount": "0.0",
+              "currencyCode": "USD"
+            }
+          }
+        },
+        {
+          "quantity": 1,
+          "discountAllocations": [
+            {
+              "discountedAmount": {
+                "amount": "59.0",
+                "currencyCode": "USD"
+              },
+              "title": "MASI subscription welcome gifts"
+            }
+          ],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/51867758067987"
+          },
+          "sellingPlanAllocation": null,
+          "cost": {
+            "totalAmount": {
+              "amount": "0.0",
+              "currencyCode": "USD"
+            }
+          }
+        },
+        {
+          "quantity": 1,
+          "discountAllocations": [
+            {
+              "discountedAmount": {
+                "amount": "12.0",
+                "currencyCode": "USD"
+              },
+              "title": "MASI subscription welcome gifts"
+            }
+          ],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/47502705033491"
+          },
+          "sellingPlanAllocation": null,
+          "cost": {
+            "totalAmount": {
+              "amount": "0.0",
+              "currencyCode": "USD"
+            }
+          }
+        },
+        {
+          "quantity": 2,
+          "discountAllocations": [],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/45882827014419"
+          },
+          "sellingPlanAllocation": {
+            "sellingPlan": {
+              "id": "gid://shopify/SellingPlan/692433813779",
+              "name": "90-DAY SUPPLY"
+            }
+          },
+          "cost": {
+            "totalAmount": {
+              "amount": "341.94",
+              "currencyCode": "USD"
+            }
+          }
+        },
+        {
+          "quantity": 1,
+          "discountAllocations": [
+            {
+              "discountedAmount": {
+                "amount": "0.0",
+                "currencyCode": "USD"
+              },
+              "title": "MASI subscription welcome gifts"
+            }
+          ],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/45882827014419"
+          },
+          "sellingPlanAllocation": {
+            "sellingPlan": {
+              "id": "gid://shopify/SellingPlan/692433813779",
+              "name": "90-DAY SUPPLY"
+            }
+          },
+          "cost": {
+            "totalAmount": {
+              "amount": "170.97",
+              "currencyCode": "USD"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "gifts-first",
+    "attributes": [
+      {
+        "key": "landing",
+        "value": "fisetin"
+      }
+    ],
+    "cost": {
+      "subtotalAmount": {
+        "amount": "512.91",
+        "currencyCode": "USD"
+      }
+    },
+    "lines": {
+      "nodes": [
+        {
+          "quantity": 2,
+          "discountAllocations": [],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/45882827014419"
+          },
+          "sellingPlanAllocation": {
+            "sellingPlan": {
+              "id": "gid://shopify/SellingPlan/692433813779",
+              "name": "90-DAY SUPPLY"
+            }
+          },
+          "cost": {
+            "totalAmount": {
+              "amount": "341.94",
+              "currencyCode": "USD"
+            }
+          }
+        },
+        {
+          "quantity": 1,
+          "discountAllocations": [
+            {
+              "discountedAmount": {
+                "amount": "0.0",
+                "currencyCode": "USD"
+              },
+              "title": "MASI subscription welcome gifts"
+            }
+          ],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/45882827014419"
+          },
+          "sellingPlanAllocation": {
+            "sellingPlan": {
+              "id": "gid://shopify/SellingPlan/692433813779",
+              "name": "90-DAY SUPPLY"
+            }
+          },
+          "cost": {
+            "totalAmount": {
+              "amount": "170.97",
+              "currencyCode": "USD"
+            }
+          }
+        },
+        {
+          "quantity": 1,
+          "discountAllocations": [
+            {
+              "discountedAmount": {
+                "amount": "12.0",
+                "currencyCode": "USD"
+              },
+              "title": "MASI subscription welcome gifts"
+            }
+          ],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/47502705033491"
+          },
+          "sellingPlanAllocation": null,
+          "cost": {
+            "totalAmount": {
+              "amount": "0.0",
+              "currencyCode": "USD"
+            }
+          }
+        },
+        {
+          "quantity": 1,
+          "discountAllocations": [
+            {
+              "discountedAmount": {
+                "amount": "59.0",
+                "currencyCode": "USD"
+              },
+              "title": "MASI subscription welcome gifts"
+            }
+          ],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/51867758067987"
+          },
+          "sellingPlanAllocation": null,
+          "cost": {
+            "totalAmount": {
+              "amount": "0.0",
+              "currencyCode": "USD"
+            }
+          }
+        },
+        {
+          "quantity": 1,
+          "discountAllocations": [
+            {
+              "discountedAmount": {
+                "amount": "89.0",
+                "currencyCode": "USD"
+              },
+              "title": "MASI subscription welcome gifts"
+            }
+          ],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/51815271268627"
+          },
+          "sellingPlanAllocation": null,
+          "cost": {
+            "totalAmount": {
+              "amount": "0.0",
+              "currencyCode": "USD"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "without-gift-attributes",
+    "attributes": [
+      {
+        "key": "landing",
+        "value": "fisetin"
+      }
+    ],
+    "cost": {
+      "subtotalAmount": {
+        "amount": "512.91",
+        "currencyCode": "USD"
+      }
+    },
+    "lines": {
+      "nodes": [
+        {
+          "quantity": 1,
+          "discountAllocations": [
+            {
+              "discountedAmount": {
+                "amount": "89.0",
+                "currencyCode": "USD"
+              },
+              "title": "MASI subscription welcome gifts"
+            }
+          ],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/51815271268627"
+          },
+          "sellingPlanAllocation": null,
+          "cost": {
+            "totalAmount": {
+              "amount": "0.0",
+              "currencyCode": "USD"
+            }
+          }
+        },
+        {
+          "quantity": 1,
+          "discountAllocations": [
+            {
+              "discountedAmount": {
+                "amount": "59.0",
+                "currencyCode": "USD"
+              },
+              "title": "MASI subscription welcome gifts"
+            }
+          ],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/51867758067987"
+          },
+          "sellingPlanAllocation": null,
+          "cost": {
+            "totalAmount": {
+              "amount": "0.0",
+              "currencyCode": "USD"
+            }
+          }
+        },
+        {
+          "quantity": 1,
+          "discountAllocations": [
+            {
+              "discountedAmount": {
+                "amount": "12.0",
+                "currencyCode": "USD"
+              },
+              "title": "MASI subscription welcome gifts"
+            }
+          ],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/47502705033491"
+          },
+          "sellingPlanAllocation": null,
+          "cost": {
+            "totalAmount": {
+              "amount": "0.0",
+              "currencyCode": "USD"
+            }
+          }
+        },
+        {
+          "quantity": 2,
+          "discountAllocations": [],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/45882827014419"
+          },
+          "sellingPlanAllocation": {
+            "sellingPlan": {
+              "id": "gid://shopify/SellingPlan/692433813779",
+              "name": "90-DAY SUPPLY"
+            }
+          },
+          "cost": {
+            "totalAmount": {
+              "amount": "341.94",
+              "currencyCode": "USD"
+            }
+          }
+        },
+        {
+          "quantity": 1,
+          "discountAllocations": [
+            {
+              "discountedAmount": {
+                "amount": "0.0",
+                "currencyCode": "USD"
+              },
+              "title": "MASI subscription welcome gifts"
+            }
+          ],
+          "merchandise": {
+            "id": "gid://shopify/ProductVariant/45882827014419"
+          },
+          "sellingPlanAllocation": {
+            "sellingPlan": {
+              "id": "gid://shopify/SellingPlan/692433813779",
+              "name": "90-DAY SUPPLY"
+            }
+          },
+          "cost": {
+            "totalAmount": {
+              "amount": "170.97",
+              "currencyCode": "USD"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

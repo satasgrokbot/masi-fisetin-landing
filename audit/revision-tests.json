@@ -1,0 +1,65 @@
+{
+  "usdHeader": true,
+  "removedSections": true,
+  "navigation": [
+    {
+      "selector": ".landing-shop",
+      "target": "#purchase",
+      "top": 225.421875,
+      "staysOnLanding": true
+    },
+    {
+      "selector": ".ms-primary a:first-child",
+      "target": "#r51-science-title",
+      "top": 252,
+      "staysOnLanding": true
+    },
+    {
+      "selector": ".ms-primary a:last-child",
+      "target": "#r58-lab",
+      "top": 251.921875,
+      "staysOnLanding": true
+    },
+    {
+      "selector": "#cart-icon-bubble",
+      "target": "#purchase",
+      "top": 225.421875,
+      "staysOnLanding": true
+    }
+  ],
+  "filters": [
+    {
+      "key": "all",
+      "liveQuotesMatch": true,
+      "expandedQuotesMatch": true,
+      "count": 4
+    },
+    {
+      "key": "energy",
+      "liveQuotesMatch": true,
+      "expandedQuotesMatch": true,
+      "count": 4
+    },
+    {
+      "key": "skin",
+      "liveQuotesMatch": true,
+      "expandedQuotesMatch": true,
+      "count": 4
+    },
+    {
+      "key": "clarity",
+      "liveQuotesMatch": true,
+      "expandedQuotesMatch": true,
+      "count": 4
+    },
+    {
+      "key": "aging",
+      "liveQuotesMatch": true,
+      "expandedQuotesMatch": true,
+      "count": 4
+    }
+  ],
+  "videoPlayAndPause": true,
+  "mobileHeader": true,
+  "errors": []
+}

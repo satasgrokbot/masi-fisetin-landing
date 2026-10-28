@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-21T18:51:53.584Z",
+  "results": [
+    {
+      "source": "Vercel preview CTA",
+      "handle": "fisetin",
+      "option": "90",
+      "rows": 1,
+      "quantity": 3,
+      "plan": 692433813779,
+      "paidPriceInCheckout": "$512.91",
+      "subtotal": {
+        "amount": "512.91",
+        "currencyCode": "USD"
+      },
+      "gifts": 3,
+      "checkout": true
+    },
+    {
+      "source": "Vercel preview CTA",
+      "handle": "fisetin",
+      "option": "30",
+      "rows": 1,
+      "quantity": 1,
+      "plan": 692168196371,
+      "paidPriceInCheckout": "$180.47",
+      "subtotal": {
+        "amount": "180.47",
+        "currencyCode": "USD"
+      },
+      "gifts": 3,
+      "checkout": true
+    },
+    {
+      "source": "Vercel preview CTA",
+      "handle": "fisetin",
+      "option": "once",
+      "rows": 1,
+      "quantity": 1,
+      "plan": null,
+      "paidPriceInCheckout": "$189.97",
+      "gifts": 0,
+      "checkout": true
+    }
+  ],
+  "source": "Existing MASI Satas app rollout verification, 21 October 2026",
+  "preview": "https://masi-fisetin-landing-855nuc4ys-masi.vercel.app"
+}

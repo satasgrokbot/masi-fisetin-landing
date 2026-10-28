@@ -1,0 +1,223 @@
+[
+  {
+    "id": "10.1016/j.ebiom.2018.09.015",
+    "url": "https://doi.org/10.1016/j.ebiom.2018.09.015",
+    "title": [
+      "Fisetin is a senotherapeutic that extends health and lifespan"
+    ],
+    "journal": [
+      "EBioMedicine"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2018,
+          10
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "abstract": "",
+    "checked": true
+  },
+  {
+    "id": "10.3892/ijmm.2018.3582",
+    "checked": true,
+    "verifiedVia": "Publisher article",
+    "url": "https://www.spandidos-publications.com/10.3892/ijmm.2018.3582"
+  },
+  {
+    "id": "10.1038/s41598-021-87257-0",
+    "url": "https://doi.org/10.1038/s41598-021-87257-0",
+    "title": [
+      "Fisetin inhibits lipopolysaccharide-induced inflammatory response by activating \u03b2-catenin, leading to a decrease in endotoxic shock"
+    ],
+    "journal": [
+      "Scientific Reports"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          16
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Fisetin is a naturally occurring flavonoid that possesses several pharmacological benefits including anti-inflammatory activity. However, its precise anti-inflammatory mechanism is not clear. In the present study, we found that fisetin significantly inhibited the expression of proinflammatory mediators, such as nitric oxide (NO) and prostaglandin E<jats:sub>2</jats:sub> (PGE<jats:sub>2</jats:sub>), and cytokines, such as interleukin-6 (IL-6) and tumor necrosis factor-alpha (TNF-\u03b1), in lipopolysaccharide (LPS)-stimulated RAW 264.7 macrophages. Additionally, fisetin attenuated LPS-induced mortality and abnormalities in zebrafish larvae and normalized the heart rate. Fisetin decreased the recruitment of macrophages and neutrophils to the LPS-microinjected inflammatory site in zebrafish larvae, concomitant with a significant downregulation of proinflammatory genes, such as <jats:italic>inducible NO synthase</jats:italic> (<jats:italic>iNOS</jats:italic>), <jats:italic>cyclooxygenase-2a</jats:italic> (<jats:italic>COX-2a</jats:italic>), <jats:italic>IL-6</jats:italic>, and <jats:italic>TNF-\u03b1</jats:italic>. Fisetin inhibited the nuclear localization of nuclear factor-kappa B (NF-\u03baB), which reduced the expression of pro-inflammatory genes. Further, fisetin inactivated glycogen synthase kinase 3\u03b2 (GSK-3\u03b2) via phosphorylation at Ser9, and inhibited the degradation of \u03b2-catenin, which consequently promoted the localization of \u03b2-catenin into the nucleus. The pharmacological inhibition of \u03b2-catenin with FH535 reversed the fisetin-induced anti-inflammatory activity and restored NF-\u03baB activity, which indicated that fisetin-mediated activation of \u03b2-catenin results in the inhibition of LPS-induced NF-\u03baB activity. In LPS-microinjected zebrafish larvae, FH535 promoted the migration of macrophages to the yolk sac and decreased resident neutrophil counts in the posterior blood island and induced high expression of <jats:italic>iNOS</jats:italic> and <jats:italic>COX-2a</jats:italic>, which was accompanied by the inhibition of fisetin-induced anti-inflammatory activity. Altogether, the current study confirmed that the dietary flavonoid, fisetin, inhibited LPS-induced inflammation and endotoxic shock through crosstalk between GSK-3\u03b2/\u03b2-catenin and the NF-\u03baB signaling pathways.</jats:p>",
+    "checked": true
+  },
+  {
+    "id": "10.29219/fnr.v65.6355",
+    "url": "https://doi.org/10.29219/fnr.v65.6355",
+    "title": [
+      "Fisetin inhibits inflammation and induces autophagy by mediating PI3K/AKT/mTOR signaling in LPS-induced RAW264.7 cells"
+    ],
+    "journal": [
+      "Food &amp; Nutrition Research"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          25
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "abstract": "",
+    "checked": true
+  },
+  {
+    "id": "10.1089/ars.2012.4901",
+    "url": "https://doi.org/10.1089/ars.2012.4901",
+    "title": [
+      "Fisetin: A Dietary Antioxidant for Health Promotion"
+    ],
+    "journal": [
+      "Antioxidants &amp; Redox Signaling"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2013,
+          7,
+          10
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "abstract": "",
+    "checked": true
+  },
+  {
+    "id": "10.1016/j.tifs.2017.10.003",
+    "checked": true,
+    "verifiedVia": "Publisher article",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0924224417302091"
+  },
+  {
+    "id": "10.15171/apb.2016.037",
+    "url": "https://doi.org/10.15171/apb.2016.037",
+    "title": [
+      "Fisetin Protects DNA Against Oxidative Damage and Its Possible Mechanism"
+    ],
+    "journal": [
+      "Advanced Pharmaceutical Bulletin"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          29
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "abstract": "",
+    "checked": true
+  },
+  {
+    "id": "10.3389/fphar.2022.927898",
+    "url": "https://doi.org/10.3389/fphar.2022.927898",
+    "title": [
+      "Fisetin Attenuated Oxidative Stress-Induced Cellular Damage in ARPE-19 Human Retinal Pigment Epithelial Cells Through Nrf2-Mediated Activation of Heme Oxygenase-1"
+    ],
+    "journal": [
+      "Frontiers in Pharmacology"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          16
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "abstract": "<jats:p>Fisetin is a kind of bioactive flavonol, widely present in various fruits such as strawberries and apples, and is known to act as a potent free radical scavenger. However, the mechanism of action related to the antioxidant activity of this compound in human retinal pigment epithelial (RPE) cells is not precisely known. In this study, we aimed to investigate whether fisetin could attenuate oxidative stress-induced cytotoxicity on human RPE ARPE-19 cells. To mimic oxidative stress, ARPE-19 cells were treated with hydrogen peroxide (H<jats:sub>2</jats:sub>O<jats:sub>2</jats:sub>), and fisetin significantly inhibited H<jats:sub>2</jats:sub>O<jats:sub>2</jats:sub>-induced loss of cell viability and increase of intracellular reactive oxygen species (ROS) production. Fisetin also markedly attenuated DNA damage and apoptosis in H<jats:sub>2</jats:sub>O<jats:sub>2</jats:sub>-treated ARPE-19 cells. Moreover, mitochondrial dysfunction in H<jats:sub>2</jats:sub>O<jats:sub>2</jats:sub>-treated cells was alleviated in the presence of fisetin as indicated by preservation of mitochondrial membrane potential, increase of Bcl-2/Bax expression ratio, and suppression of cytochrome <jats:italic>c</jats:italic> release into the cytoplasm. In addition, fisetin enhanced phosphorylation and nuclear translocation of nuclear factor erythroid 2 related factor 2 (Nrf2), which was associated with increased expression and activity of heme oxygenase-1 (HO-1). However, the HO-1 inhibitor, zinc protoporphyrin, significantly reversed the protective effect of fisetin against H<jats:sub>2</jats:sub>O<jats:sub>2</jats:sub>-mediated ARPE-19 cell injury. Therefore, our results suggest that Nrf2-mediated activation of antioxidant enzyme HO-1 may play an important role in the ROS scavenging activity of fisetin in RPE cells, contributing to the amelioration of oxidative stress-induced ocular disorders.</jats:p>",
+    "checked": true
+  },
+  {
+    "id": "10.1186/s40001-023-01271-8",
+    "url": "https://doi.org/10.1186/s40001-023-01271-8",
+    "title": [
+      "Biological effects and mechanisms of fisetin in cancer: a promising anti-cancer agent"
+    ],
+    "journal": [
+      "European Journal of Medical Research"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          25
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Fisetin, a natural flavonoid, possesses numerous biological activities that have been extensively studied in various diseases. When it comes to cancer, fisetin exhibits a range of biological effects, such as suppressing cell growth, triggering programmed cell death, reducing the formation of new blood vessels, protecting against oxidative stress, and inhibiting cell migration. Moreover, fisetin has the ability to enhance the effectiveness of chemotherapy. The anticancer properties of fisetin can be attributed to a diverse array of molecules and signaling pathways, including vascular endothelial growth factor (VEGF), mitogen-activated protein kinase (MAPK), nuclear factor-kappa B (NF-\u03baB), PI3K/Akt/mTOR, and Nrf2/HO-1. Consequently, fisetin holds promise as a therapeutic agent for anticancer treatment. In this review, we place emphasis on the biological functions and various molecular targets of fisetin in anticancer therapy.</jats:p>",
+    "checked": true
+  },
+  {
+    "id": "10.3390/ph16020196",
+    "url": "https://doi.org/10.3390/ph16020196",
+    "title": [
+      "Fisetin in Cancer: Attributes, Developmental Aspects, and Nanotherapeutics"
+    ],
+    "journal": [
+      "Pharmaceuticals"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          28
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "abstract": "<jats:p>Cancer is one of the major causes of mortality, globally. Cancerous cells invade normal cells and metastasize to distant sites with the help of the lymphatic system. There are several mechanisms involved in the development and progression of cancer. Several treatment strategies including the use of phytoconstituents have evolved and been practiced for better therapeutic outcomes against cancer. Fisetin is one such naturally derived flavone that offers numerous pharmacological benefits, i.e., antioxidant, anti-inflammatory, antiangiogenic, and anticancer properties. It inhibits the rapid growth, invasiveness, and metastasis of tumors by hindering the multiplication of cancer cells, and prompts apoptosis by avoiding cell division related to actuation of caspase-9 and caspase-8. However, its poor bioavailability associated with its extreme hydrophobicity hampers its clinical utility. The issues related to fisetin delivery can be addressed by adapting to the developmental aspects of nanomedicines, such as formulating it into lipid or polymer-based systems, including nanocochleates and liposomes. This review aims to provide in-depth information regarding fisetin as a potential candidate for anticancer therapy, its properties and various formulation strategies.</jats:p>",
+    "checked": true
+  },
+  {
+    "id": "NCT03430037",
+    "url": "https://clinicaltrials.gov/study/NCT03430037",
+    "title": "Alleviation by Fisetin of Frailty, Inflammation, and Related Measures in Older Women",
+    "status": "ENROLLING_BY_INVITATION",
+    "summary": "This is a pilot study to evaluate whether targeting inflammation will help reduce markers of insulin resistance inflammation, bone resorption and physical dysfunction in elderly women with gait disturbance. Positive results of this study would lead to the development of a larger clinical trial examining the effects of this intervention on age-related dysfunction.",
+    "hasResults": false,
+    "checked": true
+  },
+  {
+    "id": "NCT06796374",
+    "url": "https://clinicaltrials.gov/study/NCT06796374",
+    "title": "A Comparison of Fisetin Kinetics in Young and Old Adults",
+    "status": "RECRUITING",
+    "summary": "This study investigates the differences in the kinetic parameters of fisetin in two cohorts of healthy volunteers:\n\nCohort 1) volunteers aged 18-30 years (n = 40) Cohort 2) volunteers aged 65 years or older (n = 40)\n\nThe purpose of this study is:\n\n1. To describe the fisetin kinetics after a single dose oral administration in older age.\n2. To compare the fisetin kinetics after a single dose oral administration in old and young age.\n\nFISEKIN-1 is designed as a four-arm study protocol. As well as two different age groups (18-30 years vs. 65 years and older), we want to compare fisetin kinetic parameters in fasted and fed condition:\n\nArm 1) 500 mg fisetin (1x 5 capsule), fasted condition, cohort 1: young age Arm 2) 500 mg fisetin (1x 5 capsule), fasted condition, cohort 2: old age Arm 3) 500 mg fisetin (1x 5 capsule), fed condition, cohort 1: young age Arm 4) 500 mg fisetin (1x 5 capsule), fed condition, cohort 2: old age",
+    "hasResults": false,
+    "checked": true
+  },
+  {
+    "id": "NCT06133634",
+    "url": "https://clinicaltrials.gov/study/NCT06133634",
+    "title": "Fisetin to Improve Vascular Function in Older Adults",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "summary": "This is a pilot clinical trial to test the efficacy of intermittent treatment with the flavonoid compound fisetin for improving vascular endothelial function and reducing aortic stiffness in older adults. This trial will also determine the potential mechanisms by which fisetin may improve vascular function, including by decreasing mitochondrial oxidative stress, cellular senescence and senescence-associated secretory phenotype (SASP) factors in circulation. Lastly, safety, tolerability and adherence of fisetin treatment will be assessed.",
+    "hasResults": false,
+    "checked": true
+  },
+  {
+    "id": "Cambridge-fisetin-bioavailability",
+    "checked": true,
+    "verifiedVia": "Publisher full text",
+    "kind": "Human crossover study of a different fisetin formulation",
+    "url": "https://www.cambridge.org/core/journals/journal-of-nutritional-science/article/enhanced-bioavailability-and-pharmacokinetics-of-a-novel-hybridhydrogel-formulation-of-fisetin-orally-administered-in-healthy-individuals-a-randomised-doubleblinded-comparative-crossover-study/2F3E81ABEDFEE18913D52A0FE050B1E6"
+  }
+]

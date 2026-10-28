@@ -1,0 +1,57 @@
+/* The page uses the captured live stylesheet. These rules only support standalone behavior. */
+[hidden]{display:none!important}
+#MainContent #masi-pdp #purchase .plan-card:not(.selected) #sub-checklist-slot{display:none}
+#MainContent #masi-pdp #purchase .cta{background:var(--r51-deep,#303907);color:white;cursor:pointer}
+#MainContent #masi-pdp #purchase .cta:disabled{opacity:.65;cursor:wait}
+#MainContent #masi-pdp #purchase .plan-card .cta{margin:0 16px 16px;width:calc(100% - 32px)}
+#purchase-error{margin:0 18px 18px;color:#9c1426;font-size:14px}
+.r51-benefit-layer img{display:block}
+#body #cookie-banner{position:fixed;z-index:1000;bottom:18px;left:18px;width:min(510px,calc(100vw - 36px));padding:22px;background:#fff;color:#0c203c;border:1px solid #d4dae0;border-radius:12px;box-shadow:0 8px 34px #0c203c28;font-family:Ergonomique,Arial,sans-serif;font-size:14px;line-height:1.5}
+#body #cookie-banner h2{font-family:Ergonomique,Arial,sans-serif;font-size:20px;margin:0 0 10px;color:#0c203c}
+#cookie-banner p{margin:0 0 16px}#cookie-banner a{color:inherit;text-decoration:underline}
+.cookie-actions{display:flex;gap:8px;flex-wrap:wrap}#cookie-banner button{border:1px solid #0c203c;padding:10px 12px;border-radius:6px;background:white;color:#0c203c;cursor:pointer;font:inherit;font-weight:500}
+#cookie-banner button[data-consent=accept],#cookie-banner button[data-consent=save]{background:#0c203c;color:white}
+#cookie-preferences{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:16px}#cookie-preferences label{display:flex;align-items:center;gap:6px}
+#cookie-open{color:inherit;background:none;border:0;text-decoration:underline;cursor:pointer;font:inherit;padding:10px 0}
+:focus-visible{outline:3px solid #6b7400;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+:root{--masi-cta-bg:rgb(43,50,13);--masi-cta-fg:#fff}
+/* Saved Shopify privacy-banner configuration: light theme, bottom left. */
+#body #cookie-banner{background:#fff;color:#000;border-color:#ddd}
+#body #cookie-banner h2{color:#000}
+#cookie-banner button,#cookie-banner button[data-consent=accept],#cookie-banner button[data-consent=save]{background:#fff;color:#000;border:1px solid #000}
+/* Header actions stay on this US-only landing. */
+html{scroll-behavior:smooth;scroll-padding-top:140px}
+#purchase,#r58-lab,#r51-science-title{scroll-margin-top:140px}
+.landing-market{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:500;white-space:nowrap}
+.landing-market img{display:block;width:24px;height:18px;object-fit:contain}
+#body .ms-navigation .landing-shop{text-decoration:none}
+#body .ms-primary a{white-space:nowrap}
+@media(max-width:989px){
+ #body .ms-row{grid-template-columns:minmax(0,1fr) 120px minmax(0,1fr);gap:4px;min-height:96px;padding:6px 12px}
+ #body .ms-logo{grid-column:2;grid-row:1;width:120px;height:48px}
+ #body .ms-utilities{display:flex;grid-column:3;grid-row:1;gap:8px}
+ #body .ms-cart{width:30px;height:40px;min-width:30px}
+ #body .landing-market{gap:5px;font-size:11px}
+ #body .landing-market img{width:20px;height:15px}
+ #body .ms-navigation{display:flex;grid-column:1/-1;grid-row:2;justify-content:center;gap:26px}
+ #body .ms-primary{display:flex;gap:26px}
+ #body .ms-primary a,#body .ms-navigation .landing-shop{font-size:13px;padding:7px 0;min-height:32px;width:auto}
+ #body .ms-promo-extra{display:none}
+ #body .ms-promo-main{font-size:10px}
+ #body #cookie-banner{bottom:10px;left:10px;width:calc(100vw - 20px);padding:17px}
+ .cookie-actions button{flex:1;font-size:12px!important}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+
+/* Product-colored navigation and optional inline footer preferences. */
+#body .ms-navigation .landing-shop{background:#F6FF48;color:#2b320d;padding:10px 18px;border-radius:10px;font-weight:600}
+#body #cookie-banner{position:static;inset:auto;width:100%;max-width:640px;margin:18px 0;box-shadow:none;text-align:left}
+#masi-pdp .accordion-content{line-height:1.6}
+#masi-pdp .accordion-content p{margin:0 0 16px}
+#masi-pdp .accordion-content h3{margin:22px 0 10px;font-size:18px}
+#masi-pdp .accordion-content a,#info-dialog-content a{text-decoration:underline;text-underline-offset:3px}
+.landing-study-links li,.landing-reference-list li{margin:0 0 18px}
+.landing-study-links span,.landing-reference-list span,.landing-reference-list small{display:block;margin-top:4px;font-size:13px;line-height:1.5}
+@media(max-width:989px){#body .ms-navigation .landing-shop{padding:7px 16px}}

@@ -1,0 +1,80 @@
+{
+  "automaticDiscountNode": {
+    "id": "gid://shopify/DiscountAutomaticNode/1636519837971",
+    "automaticDiscount": {
+      "title": "MASI subscription welcome gifts",
+      "status": "ACTIVE",
+      "summary": "Buy 1 item, get 3 items free",
+      "usesPerOrderLimit": 1,
+      "customerBuys": {
+        "isOneTimePurchase": false,
+        "isSubscription": true,
+        "value": {
+          "quantity": "1"
+        },
+        "items": {
+          "products": {
+            "nodes": [
+              {
+                "id": "gid://shopify/Product/8512736854291",
+                "title": "Premium NMN - the king of longevity"
+              },
+              {
+                "id": "gid://shopify/Product/8512738230547",
+                "title": "Premium RESVERATROL"
+              },
+              {
+                "id": "gid://shopify/Product/8512738787603",
+                "title": "Premium SPERMIDINE"
+              },
+              {
+                "id": "gid://shopify/Product/8512740000019",
+                "title": "Premium FISETIN"
+              },
+              {
+                "id": "gid://shopify/Product/10016195805459",
+                "title": "Premium Hair Complex 2-Bottle System"
+              }
+            ]
+          },
+          "productVariants": {
+            "nodes": []
+          }
+        }
+      },
+      "customerGets": {
+        "appliesOnOneTimePurchase": true,
+        "appliesOnSubscription": false,
+        "value": {
+          "quantity": {
+            "quantity": "3"
+          },
+          "effect": {
+            "percentage": 1
+          }
+        },
+        "items": {
+          "products": {
+            "nodes": [
+              {
+                "id": "gid://shopify/Product/8936738980115",
+                "title": "MASI Travel Jar"
+              },
+              {
+                "id": "gid://shopify/Product/10011856142611",
+                "title": "Eight Pillars of a Longer Life (e-book)"
+              },
+              {
+                "id": "gid://shopify/Product/10016591872275",
+                "title": "The Longevity Diet That Ended the Debate (e-book)"
+              }
+            ]
+          },
+          "productVariants": {
+            "nodes": []
+          }
+        }
+      }
+    }
+  }
+}
