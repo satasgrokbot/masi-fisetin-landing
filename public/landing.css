@@ -25,7 +25,12 @@
 html{scroll-behavior:smooth}
 html,html:has(#masi-pdp .sticky-purchase){scroll-padding-top:calc(var(--header-height,89px) + 16px)}
 #MainContent #masi-pdp.sf-pdp #purchase,#MainContent #masi-pdp #r58-lab,#MainContent #masi-pdp #r51-science-title{scroll-margin-top:0}
-#purchase:focus,#purchase:focus-visible{outline:none}
+/* Beat live #MainContent #masi-pdp.sf-store :focus-visible (teal ring on promo jump). */
+#MainContent #masi-pdp.sf-store #purchase:focus,
+#MainContent #masi-pdp.sf-store #purchase:focus-visible,
+#MainContent #masi-pdp #purchase:focus,
+#MainContent #masi-pdp #purchase:focus-visible,
+#purchase:focus,#purchase:focus-visible{outline:none!important;outline-offset:0;box-shadow:none}
 #body .landing-market{display:flex;align-items:center;justify-content:center;gap:6px;min-height:48px;padding:0 8px;font-size:18px;line-height:24px;white-space:nowrap}
 #body .landing-market img{display:block;width:24px;height:24px;border-radius:50%;object-fit:cover}
 #body .ms-navigation .landing-shop{background:var(--ms-header-accent,#f6ff48);color:#0b1f3a;text-decoration:none}
