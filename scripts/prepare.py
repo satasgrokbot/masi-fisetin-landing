@@ -7,12 +7,12 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]
 PUBLIC=ROOT/'public'; ASSETS=PUBLIC/'assets'; ASSETS.mkdir(parents=True,exist_ok=True)
 manifest={}; changes=[]
 APPROVED=[
-"As we age, senescent or 'zombie' cells build up in the body.",
-"MASI Premium Fisetin is a senolytic flavonoid that helps the body clear senescent cells, supporting cellular renewal and healthy aging.",
+"As we age, senescent or “zombie” cells build up in the body — cells that have stopped dividing but remain active. Scientists study them as one process involved in aging.",
+"Fisetin is a plant flavonol studied for how it interacts with senescent cells and for pathways linked to cellular renewal and healthy aging.",
 "Each capsule contains 250 mg of pure Fisetin.",
 "60 vegan capsules per jar.",
 "Made in Germany with German raw materials and third-party tested in Switzerland for purity.",
-"Fisetin is a natural antioxidant that helps protect cells from oxidative stress and supports healthy brain aging.",
+"Laboratory research studies fisetin’s antioxidant activity and cellular responses to oxidative stress — areas of interest for healthy-aging science.",
 "How to take: 40–50 years, 1 capsule per day; 50 years and more, 2 capsules per day."
 ]
 def url(u,base='https://masi.eu'):

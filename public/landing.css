@@ -56,9 +56,50 @@ html,html:has(#masi-pdp .sticky-purchase){scroll-padding-top:calc(var(--header-h
 
 /* Optional inline footer preferences. */
 #body #cookie-banner{position:static;inset:auto;width:100%;max-width:640px;margin:18px 0;box-shadow:none;text-align:left}
-#masi-pdp .accordion-content{line-height:1.6}
-#masi-pdp .accordion-content p{margin:0 0 16px}
-#masi-pdp .accordion-content h3{margin:22px 0 10px;font-size:18px}
-#masi-pdp .accordion-content a,#info-dialog-content a{text-decoration:underline;text-underline-offset:3px}
+/* Expanded product-detail / FAQ / process description boxes — beat live margin:0 reset */
+#MainContent #masi-pdp .accordion-content,
+#MainContent #masi-pdp .accordion-body{
+  padding:4px 0 24px;
+  font-size:18px;
+  line-height:1.65;
+  color:#394952;
+}
+#MainContent #masi-pdp .accordion-content p,
+#MainContent #masi-pdp .accordion-body p{
+  margin:0 0 16px;
+}
+#MainContent #masi-pdp .accordion-content p:last-child,
+#MainContent #masi-pdp .accordion-body p:last-child{margin-bottom:0}
+#MainContent #masi-pdp .accordion-content h3,
+#MainContent #masi-pdp .accordion-body h3{
+  margin:22px 0 10px;
+  font-size:18px;
+  line-height:1.35;
+  color:var(--ink,#0b1f3a);
+}
+#MainContent #masi-pdp .accordion-content ul,
+#MainContent #masi-pdp .accordion-content ol,
+#MainContent #masi-pdp .accordion-body ul,
+#MainContent #masi-pdp .accordion-body ol{
+  margin:0 0 16px;
+  padding-left:1.25em;
+}
+#MainContent #masi-pdp .accordion-content li,
+#MainContent #masi-pdp .accordion-body li{margin:0 0 8px}
+#MainContent #masi-pdp .accordion-content a,
+#MainContent #masi-pdp .accordion-body a,
+#info-dialog-content a{text-decoration:underline;text-underline-offset:3px}
+#MainContent #masi-pdp .r51-faq-item>.r51-rich{
+  padding:4px 0 24px;
+}
+#MainContent #masi-pdp .r51-faq-item>.r51-rich p{margin:0 0 14px}
+#MainContent #masi-pdp .r51-faq-item>.r51-rich p:last-child{margin-bottom:0}
+#MainContent #masi-pdp .r60-process-step>.r51-rich p{margin:0 0 14px}
+#MainContent #masi-pdp .r60-process-step>.r51-rich p:last-child{margin-bottom:0}
+#MainContent #masi-pdp .r60-process-info .r51-rich{padding:12px 0 20px}
+#MainContent #masi-pdp .landing-study-links,
+#MainContent #masi-pdp .landing-reference-list{margin:8px 0 0;padding-left:1.15em}
+#MainContent #masi-pdp .landing-study-links li,
+#MainContent #masi-pdp .landing-reference-list li{margin:0 0 14px}
 .landing-study-links li,.landing-reference-list li{margin:0 0 18px}
 .landing-study-links span,.landing-reference-list span,.landing-reference-list small{display:block;margin-top:4px;font-size:13px;line-height:1.5}
