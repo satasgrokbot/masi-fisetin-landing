@@ -37,10 +37,36 @@ html,html:has(#masi-pdp .sticky-purchase){scroll-padding-top:calc(var(--header-h
 #body .ms-primary a{white-space:nowrap}
 @media(hover:none){#body .ms-navigation .landing-shop:hover{box-shadow:none}}
 @media(max-width:1199px){
- /* Live row: menu | market | logo | account | cart. No menu here, so the links move to a second row. */
- #body .ms-row{row-gap:0}
- #body .landing-market{grid-column:2;grid-row:1;width:44px;padding:0}
+ /* Elegant mobile header: flag | logo | cart on one row (equal side columns). Nav on row 2. */
+ #body .ms-row{
+   grid-template-columns:44px minmax(0,1fr) 44px;
+   column-gap:8px;
+   row-gap:0;
+   align-items:center;
+   padding-left:12px;
+   padding-right:12px;
+ }
+ #body .ms-utilities{display:contents}
+ #body .landing-market,
+ #body .ms-market{
+   grid-column:1;grid-row:1;
+   justify-self:start;align-self:center;
+   width:44px;min-width:44px;min-height:48px;padding:0;
+   display:flex;align-items:center;justify-content:center;
+ }
  #body .landing-market>span{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+ #body .ms-logo{
+   grid-column:2;grid-row:1;
+   justify-self:center;align-self:center;
+   width:100%;max-width:160px;height:56px;
+ }
+ #body .ms-cart{
+   grid-column:3;grid-row:1;
+   justify-self:end;align-self:center;
+   width:44px;min-width:44px;min-height:48px;
+   display:flex;align-items:center;justify-content:center;
+ }
+ #body .ms-account{display:none}
  #body .ms-navigation{display:flex;grid-column:1/-1;grid-row:2;justify-content:center;align-items:center;gap:24px;padding-bottom:4px}
  #body .ms-primary{display:flex;gap:24px}
  #body .ms-primary a{min-height:44px;font-size:16px}
@@ -103,3 +129,15 @@ html,html:has(#masi-pdp .sticky-purchase){scroll-padding-top:calc(var(--header-h
 #MainContent #masi-pdp .landing-reference-list li{margin:0 0 14px}
 .landing-study-links li,.landing-reference-list li{margin:0 0 18px}
 .landing-study-links span,.landing-reference-list span,.landing-reference-list small{display:block;margin-top:4px;font-size:13px;line-height:1.5}
+
+/* Hero tagline highlighter — match live PDP .product-tagline__mark */
+#MainContent #masi-pdp .product-tagline{
+  display:block;width:fit-content;max-width:100%;
+  font-weight:600;background:none!important;
+}
+#MainContent #masi-pdp .product-tagline__mark{
+  display:inline;
+  background:linear-gradient(180deg,transparent 56%,var(--accent,#f6ff48) 56%,var(--accent,#f6ff48) 94%,transparent 94%);
+  background-repeat:no-repeat;
+  -webkit-box-decoration-break:clone;box-decoration-break:clone;
+}
