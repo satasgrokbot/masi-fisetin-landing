@@ -29,12 +29,14 @@ function select(key) {
   const title = key === 'once' ? 'One Time Purchase · 1 jar' : `${key}-Day Supply · ${p.qty} ${p.qty === 1 ? 'jar' : 'jars'}`;
   $('#sticky-plan').textContent = title;
   $('#sticky-selection').textContent = title;
-  $('#sticky-total').textContent = money(p.unit * p.qty);
-  $('#sticky-list').textContent = money(config.list * p.qty);
+  $('#sticky-purchase').classList.toggle('is-one-time', key === 'once');
+  $('#sticky-total').textContent = money(p.unit);
+  $('#sticky-mo').hidden = key === 'once';
+  $('#sticky-list').textContent = money(config.list);
   $('#sticky-list').hidden = key === 'once';
   $('#sticky-discount').textContent = `Save ${p.pct}%`;
   $('#sticky-discount').hidden = key === 'once';
-  $('#sticky-day').textContent = money(Math.round(p.unit / 30)) + '/day';
+  $('#sticky-billed').textContent = p.id ? `Billed ${money(p.unit * p.qty)} every ${p.weeks} weeks` : 'Billed once · no subscription';
   $('#renewal-copy').textContent = p.id ? `Renews at ${money(p.unit * p.qty)} every ${p.weeks} weeks.` : 'Billed once · no subscription.';
   $('#subscription-terms-link').hidden = !p.id;
   $('#price-announcement').textContent = title + '. ' + money(p.unit * p.qty);

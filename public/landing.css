@@ -141,3 +141,9 @@ html,html:has(#masi-pdp .sticky-purchase){scroll-padding-top:calc(var(--header-h
   background-repeat:no-repeat;
   -webkit-box-decoration-break:clone;box-decoration-break:clone;
 }
+/* Fact chips: live.css allows mid-word breaks and auto hyphens ("Ger-many"); keep whole words. */
+#MainContent #masi-pdp .product-facts.copy-synced dt{overflow-wrap:normal;word-break:normal;-webkit-hyphens:none;hyphens:none}
+/* Sticky bar mirrors the buy-box price: monthly jar price, /mo, and the billed cadence line on every viewport. */
+#MainContent #masi-pdp .sticky-price .sticky-mo{font-size:14px;margin-left:-5px;color:var(--muted)}
+@media(max-width:700px){#MainContent #masi-pdp .sticky-inner,#MainContent #masi-pdp .sticky-purchase.is-one-time .sticky-inner{grid-template-columns:minmax(0,1fr) 136px;column-gap:12px}#MainContent #masi-pdp .sticky-price .sticky-billed{display:block;margin:2px 0 0;color:var(--muted);font-size:14px;line-height:1.3}}
+
